@@ -39,6 +39,7 @@ struct SearchBar: View {
                 .cornerRadius(10, antialiased: true)
                 .padding(.leading, 5)
                 .padding(.trailing, 5)
+                .animation(Animation.easeInOut)
                 
                 if searchBarDelegate.isSearchBarActive {
                     Button(action: {
@@ -49,6 +50,8 @@ struct SearchBar: View {
                         .foregroundColor(Color.black)
                         .padding(.leading, 5)
                         .padding(.trailing, 15)
+                        .animation(Animation.easeInOut)
+                    
                 }
             }
         }
