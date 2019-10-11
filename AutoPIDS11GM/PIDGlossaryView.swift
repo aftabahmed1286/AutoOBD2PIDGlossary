@@ -22,15 +22,7 @@ struct PIDGlossaryView: View {
             }
         }
     }
-    
 }
-
-
-
-
-
-
-
 
 struct PIDGlossaryView_Previews: PreviewProvider {
     static var previews: some View {
